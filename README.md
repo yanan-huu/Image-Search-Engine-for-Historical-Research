@@ -43,7 +43,7 @@ This work is a combination of three master's thesis projects. Welcome to check o
 <details><summary><b>To retrain the model</b></summary>
 <p>
 If you want to retrain the model yourself, the example training script is located in src/main_train.py.  
-To train the model, you should firstly make sure you have downloaded the training datasets Sfm120k or GoogleLandmarksv2 in data/train/, then you can start training by running
+To train the model, you should firstly make sure that you have downloaded the training datasets Sfm120k or GoogleLandmarksv2 in data/train/, then you can start training by running
 
 ```bash
    python3 -m src.main_train [-h] [--training-dataset DATASET] [--no-val]
